@@ -2,27 +2,25 @@ img {
   display: block;
   float: left;
   max-width: 100%;
+  background-position: center;
 }
 
 nav {
   background-color: darkred;
   display: flex;
   justify-content: space-around;
-  color: #ddd;
-  font-family: sans;
+  color: black;
+  font-family: sans-serif;
   font-weight: bold;
 }
-@media all and (max-width: 800px) {
-  nav {
-    flex-direction: column;
-  }
-}
+
 div {
   padding: 5px;
   flex: 1 1 auto;
   text-align: center;
   border: 2px solid white;
 }
+
 div:hover {
-  background-color: red;
+  background-color: blue;
 }
